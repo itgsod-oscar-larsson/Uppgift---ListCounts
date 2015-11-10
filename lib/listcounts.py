@@ -19,3 +19,9 @@ def min(listofnumbers):
             mini = i
 
     return mini
+
+def average(listofnumbers):
+    sum = 0
+    for i in listofnumbers:
+        sum = sum + i
+    return sum/len(listofnumbers)
