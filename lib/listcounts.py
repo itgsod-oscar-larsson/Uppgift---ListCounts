@@ -25,3 +25,4 @@ def average(listofnumbers):
     for i in listofnumbers:
         sum = sum + i
     return sum/len(listofnumbers)
+s
